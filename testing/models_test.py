@@ -29,7 +29,3 @@ class TestZookeeper:
         z = Zookeeper()
         assert z.to_dict()
         assert isinstance(z.to_dict(), dict)
-[pytest]
-filterwarnings =
-    ignore:.*ast.Str.*:DeprecationWarning
-    ignore:.*ast.NameConstant.*:DeprecationWarning
